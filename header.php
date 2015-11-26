@@ -37,27 +37,7 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 			<?php if ( is_front_page() && is_home() ) : ?>
-				<div class="jumbotron">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="intro-message">
-                                    <h1>The Peppers Estate</h1>
-                                    <h3>A Residential Care Facility for the Elderly</h3>
-
-                                    <hr />
-
-                                    <h4>430 Hot Springs Road
-                                        Santa Barbara, Ca. 93108</h4>
-                                    
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.container -->
-
-                </div>
+				
 			<?php else : ?>
 				
 			<?php endif;

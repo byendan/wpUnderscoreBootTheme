@@ -769,7 +769,7 @@ h6 {
   
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/OceanReadBanner.png) no-repeat center center;
+    background: url(./img/OceanReadBanner.png) no-repeat center center;
     background-size: contain;
     padding-bottom: 0;
     background-position: center;
@@ -815,7 +815,7 @@ h6 {
   
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/MobileOceanReadBanner.png) no-repeat center center;
+    background: url(./img/MobileOceanReadBanner.png) no-repeat center center;
     background-size: cover;
     padding-bottom: 0;
     
@@ -883,7 +883,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/pepbeach.png) no-repeat center center;
+    background: url(./img/pepbeach.png) no-repeat center center;
     background-size: cover;
 }
 
