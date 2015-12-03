@@ -71,11 +71,37 @@ $(document).ready(function(){
 <?php endif; ?>
  <script src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+
+<!--
+<script>
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+});
+    
+</script>
+-->
+
+<!--
 <script>
     $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
+       
+        $(".navbar .navbar-header button").click(function(event) {
+            $(".navbar-collapse").collapse('hide');
+        });
     });
 </script>
+-->
+
+<!--
+<script>
+    $(document).ready(function () {
+        $('ul li a .dropdown-toggle').dropdown();
+        
+    });
+</script>
+-->
 
 <?php wp_footer(); ?>
 

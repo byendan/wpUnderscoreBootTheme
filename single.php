@@ -11,7 +11,11 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+        <div class="house_post_title">
+            <div class="house_post_box">
+                <h1><?php single_post_title(); ?></h1>
+            </div>
+        </div>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
