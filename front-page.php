@@ -26,7 +26,7 @@ get_header(); ?>
 
                                     <hr />
 
-                                    <button class="btn btn-primary" role="link">Properties</button>
+                                    <button class="btn btn-primary" role="link">Locations</button>
                                     
 
                                 </div>
