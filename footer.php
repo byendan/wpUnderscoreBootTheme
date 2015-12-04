@@ -17,7 +17,7 @@
 		<div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="list-inline">
+                    <ul class="list-inline foot-list">
                         <?php 
                         $menue = get_nav_menu_locations()['primary'];
                         foreach ( wp_get_nav_menu_items($menue) as $item) {
@@ -71,6 +71,20 @@ $(document).ready(function(){
 <?php endif; ?>
  <script src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+
+    <script>
+
+$( ".list-group-item" )
+  .mouseover(function() {
+    $(this).addClass("active");
+    $(this).children().css('color', 'white');
+  })
+  .mouseout(function() {
+    $(this).removeClass("active");
+    $(this).children().css('color', '#337eb7');
+  });
+
+</script>
 
 <!--
 <script>

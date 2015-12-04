@@ -25,8 +25,8 @@ get_header(); ?>
                                     <h3>Residential Care Facilities for the Elderly</h3>
 
                                     <hr />
-
-                                    <button class="btn btn-primary" role="link">Locations</button>
+                                
+                                    <a class="btn btn-primary" role="button" href="index.php/category/properties/">Locations</a>
                                     
 
                                 </div>

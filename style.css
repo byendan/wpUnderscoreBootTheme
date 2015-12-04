@@ -923,6 +923,8 @@ h6 {
         text-align: center;   
     }
     
+    
+    
     .section-heading-spacer {
         width: 40%;
         
@@ -930,17 +932,26 @@ h6 {
     
 }
 
+
+
 @media(min-width:768px){
     .house_post_box{
         display: inline-block;
-        margin-left: auto;
-        margin-right: auto;
+        margin-right: 50%;
+        
         padding: 5px;
         padding-bottom: 10px;
         margin-top: 10px;
         border: 1px solid white;
+        
     }
 }
+
+/*
+
+banner
+
+*/
 
 .banner {
     padding: 100px 0;
@@ -999,6 +1010,11 @@ h6 {
     }
 }
 
+/*
+
+footer
+
+*/
 
 @media(max-width:767px) {
     .banner h2 {
@@ -1034,16 +1050,35 @@ footer {
 }
 
 .foot {
-    background-color: #ffffff;
+    background-color: #6B6B6B;
     border-top: solid 1px rgba(0, 0, 0, 0.31);
+}
+
+.foot-list > li > a{
+    font-size: 16px;
+    color: #3fbdff;
 }
 
 p.copyright {
     margin: 15px 0 0;
 }
 
+/*
+
+contact page
+
+*/
+
 .head-cont, .serv-cont {
-    margin-top: 70px;   
+    margin-top: 50px;   
+}
+
+.list-group-item-text {
+    font-size: 12px;
+}
+
+.list-group-item a {
+    font-size: 12px;   
 }
 
 .contact-head, .serv-head, .res-head{
@@ -1137,9 +1172,7 @@ dd {
     font-size: 32px;
 }
 
-.terms-area h4 {
-    text-align: justify;   
-}
+
 
 .terms {
     background-color: rgb(255, 255, 255);  
@@ -1164,9 +1197,13 @@ dd {
     font-size: 32px;   
 }
 
-.res-top h4 {
-    text-align: justify;
-}
+
+
+/*
+
+nav styles
+
+*/
 
 .navbar .navbar-header button{
     border: solid 1px black;   
@@ -1286,6 +1323,7 @@ archive styles
 
 .arch_post_area {
     margin-top: 50px; 
+   
 }
 
 .arch-post-title {
@@ -1294,25 +1332,43 @@ archive styles
     
 }
 
+
+
 .entry-header {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.67);
+    background-color: #6B6B6B;
     height: 70px;
     width: 100%;
 }
 
 .entry-title a {
-    color: #97c2f4;   
+    color: #3fbdff;   
 }
+
+
 
 .continue_reading {
     float: left;
-    margin-left: 10%;
+   margin-left: 5%;
+    margin-right: 10px;
     font-size: 18px;
+    
+}
+
+.more-link {
+    margin-left: 10%;   
 }
 
 @media(max-width:915px) {
-    .continue_reading {
+    .more-link{
         margin-left: 3%;   
     }
+}
+
+.location {
+    margin-top: 50px;   
+}
+
+.contact-area {
+    margin-top: 50px;   
 }
